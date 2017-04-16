@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ConcurrencyPractice.dir/main.cpp.o CMakeFiles/ConcurrencyPractice.dir/src/practice1.cpp.o CMakeFiles/ConcurrencyPractice.dir/src/practice2.cpp.o CMakeFiles/ConcurrencyPractice.dir/src/practice3.cpp.o  -o ConcurrencyPractice -lpthread 

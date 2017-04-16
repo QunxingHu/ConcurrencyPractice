@@ -18,5 +18,9 @@ int run_practice1();
 void fun_2(int id);
 void run_practice2();
 
+// practice3
+void fun_3(int id);
+void run_practice3();
+
 
 #endif //CONCURRENCYPRACTICE_PRACTICE_H

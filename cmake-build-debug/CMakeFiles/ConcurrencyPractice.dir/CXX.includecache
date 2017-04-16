@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/practice.h
+iostream
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+/home/quincy/CLionProjects/ConcurrencyPractice/main.cpp
+iostream
+-
+practice.h
+/home/quincy/CLionProjects/ConcurrencyPractice/practice.h
+
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice1.cpp
+practice.h
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice.h
+
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice2.cpp
+practice.h
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice.h
+
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice3.cpp
+practice.h
+/home/quincy/CLionProjects/ConcurrencyPractice/src/practice.h
+

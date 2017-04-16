@@ -14,7 +14,7 @@ void fun_2(int id)
         std::unique_lock<std::mutex> lk(m_2);
         while(id!=flag_2)
             con.wait(lk);
-        std::cout<< ('A'+id);
+        std::cout<<(char) ('A'+id);
         flag_2 = (flag_2+1)%3;
         con.notify_all();
     }
